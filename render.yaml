@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: turning65-medicare-made-easy
+    runtime: static
+    buildCommand: echo "Static site ready"
+    staticPublishPath: ./dist
+    domains:
+      - turning65medicaremadeeasy.com
